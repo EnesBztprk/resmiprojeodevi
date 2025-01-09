@@ -1,0 +1,38 @@
+body{background: radial-gradient(greenyellow,green);}
+*{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-decoration: none;}
+#piano{ font-size: 40px; margin: 0px; padding-right: 20px; }
+h2{float: left; padding-right: 30px;}
+h3{color:#34495E;  font-size: 40px;}
+a{color: rgb(248, 162, 1); float: left;}
+a:hover{animation: a 0.5s forwards ; display: flex;}
+img{transition: transform 0.3s ease; box-sizing: border-box; margin: 0;}
+img:hover {
+    transform: scale(1.1);
+    
+}
+#imj{display: flex; object-fit:cover; align-items: center; 
+animation: se 0.7s ease-out forwards;}
+
+@keyframes a{
+
+    
+    
+    100%{
+        color: red;
+    }
+}@keyframes se{
+
+    0%{
+        transform: translateY(1000px);
+    }
+    
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+    #plaka{margin: auto; object-position: center; margin-left: 700px; margin-top: -380px;}
+
+
+

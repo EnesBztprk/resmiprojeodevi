@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+font-family: cursive;
+list-style: none;
+text-decoration: none;}
+
+body{ 
+background: linear-gradient(135deg, #0074a8, #0098db, #0074a8);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+.main{
+margin: 0 auto;
+
+box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+background: linear-gradient(135deg, #0074a8, #0098db, #0074a8);
+}
+
+.ust{
+   
+    background-image: url(hafta88.jpg);
+    background-size: cover;
+    background-position: center 210px;
+    border-bottom: solid 1px black;
+    box-shadow: 0px 1px 1px black;
+    
+}
+.orta{
+    margin-top: 10px;
+  
+
+}
+.siteler{
+
+   
+
+
+border-right: 1px solid black;
+
+
+
+}
+
+.alt{
+    
+    text-align: center;
+background-color: rgb(60, 60, 60);
+}
+
+
+
+.buton{
+    
+    text-transform: uppercase;
+    background-color: red;
+    text-align: center ;
+    line-height: 20px;
+    height: 20px;
+   width: 20px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.solreklam{
+    border: 1px solid  white;
+    background-image: url(pettrol.jpg); 
+    background-position: 500px center; 
+    background-size: 900px;
+    width: 200px; 
+    height: 500px;
+    background-color: white;
+    float: left; 
+    margin: 0 auto; 
+    margin-left: 20px; 
+    margin-top: 140px; 
+    position: fixed;
+}
+
+.sagreklam{
+    border: 1px solid white;
+    background-image: url(pettrol.jpg); 
+    background-position: 500px center; 
+    background-size: 900px;
+    width: 200px; 
+    height: 500px; 
+    background-color: black;
+    float: left; 
+    margin-left:1260px; 
+    margin-top: 140px; 
+    position: fixed;
+}
+
+
+/*!burdan sonrası taglarla alakalı*/
+
+
+.ust h1{
+    padding-left: 100px;
+    line-height: 110px;
+    color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: #000 0px 1px 5px;
+
+}
+
+
+.siteler  ul li a{
+    border-radius: 18px;
+    text-shadow: #000 0px 1px 5px;
+height: 30px;
+width: 130px;
+margin-top: 10px;
+text-decoration: none;
+color: black;
+padding-left: -40px;
+text-align: center ;
+display: block;
+padding-top: 10px;
+box-shadow: 0px 0px 1px 2px ;
+transition: box-shadow 0.3s ease;
+}
+
+
+.siteler  ul{
+    margin-top: 50px;
+    padding-left: 45px;
+    position: fixed;
+   
+    
+}
+.metin h2{
+    color: white;
+    float: left;    
+    padding-left: 30px;
+    text-shadow: #000 0px 2px 5px;}
+
+
+    .metin p{text-shadow: #000 0px 1px 7px;
+padding-top: 20px;    
+color: white;
+text-align: center;}
+
+
+.alt a{
+    color: white; 
+    padding-left: 200px; 
+    line-height: 150px;
+}
+
